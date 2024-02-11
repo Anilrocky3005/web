@@ -36,20 +36,31 @@
     border-radius: 10px;
     height: 50vh;
     width: 70vw;
+    position: fixed;
   }
   .img {
     border: 2px solid black;
     border-radius: 10px;
-    width: 40vw;
+    width: 20vw;
     height: 20vh;
   }
   .webdesign {
-    padding: 10px;
+  padding: 10px;
   background-color: whitesmoke;
   display: flex;
   gap: 15px;
   position: fixed;
-  height: 50vh;
-  width: 70vw;
+  
+  }
+  .content{
+  padding: 10px;
+  background-color: whitesmoke;
+  position: fixed;
+  width: 20vw;
+  height: 30vh;
+
+  
+  
+
   }
 }
