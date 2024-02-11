@@ -15,6 +15,8 @@
 .img {
   border: 2px solid black;
   border-radius: 10px;
+  position: absolute;
+  z-index: 3;
 
 
 }
@@ -23,11 +25,21 @@
   background-color: whitesmoke;
   display: flex;
   gap: 15px;
-  position: fixed;
+  position: relative;
+  
   
 
 }
-@media screen and (max-width: 608px ) and (min-width:3000px){
+.content{
+  padding: 30px 50px 0px 350px ;
+  background-color: whitesmoke;
+  position: absolute;
+  margin: auto;
+  margin-bottom: 10px;
+
+}
+  
+@media screen and (max-width: 740px ){
   * {
     margin: 0%;
     padding: 0%;
@@ -38,9 +50,8 @@
     background-color: blue;
     border: 2px solid black;
     border-radius: 10px;
-    height: 50vh;
-    width: 70vw;
-    position: fixed;
+    
+    position: relative;
   }
   .img {
     border: 2px solid black;
@@ -49,21 +60,20 @@
     height: 20vh;
   }
   .webdesign {
-  padding: 10px;
   background-color: whitesmoke;
   display: flex;
+  width: 100%;
   gap: 15px;
-  position: fixed;
-  width: 70vw;
-  height:70vh ;
+  position: relative;
+  height:30vh ;
+  overflow: hidden;
   
   }
   .content{
   padding: 10px;
+  padding-left: 150px;
   background-color: whitesmoke;
-  position: fixed;
-  width: 20vw;
-  height: 30vh;
+  
 
   
   
